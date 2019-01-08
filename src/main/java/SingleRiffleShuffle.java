@@ -13,7 +13,6 @@ public class SingleRiffleShuffle {
 
         int indexH1 = 0;
         int indexH2 = 0;
-        int indexShuffle = 0;
 
         // check if the lengths of the halves is greater or smaller than the shuffle deck length.
         if(h1Length + h2Length > shuffleDeckLength || h1Length + h2Length < shuffleDeckLength)
