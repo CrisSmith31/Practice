@@ -5,7 +5,7 @@ package ArraysAndStrings;
  * Given two strings write a function to check if they are one(or zero) edits away.
  */
 
-public class OneAway {
+public class Q5_OneAway {
 
     public static boolean checkTwoStringsAreZeroOrOneEditsAway(String first, String second) {
 
