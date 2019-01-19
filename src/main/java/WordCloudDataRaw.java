@@ -15,7 +15,7 @@ import java.util.*;
  * Assume the input will only contain words and standard punctuation.
  */
 
-public class WordCloudData {
+public class WordCloudDataRaw {
 
    public static List<String> splitWords(String paragraph){
        List<String> listOfWords = new ArrayList<>();
@@ -55,8 +55,9 @@ public class WordCloudData {
 
 
     public static void main(String[] args) {
-        String input = "After beating the eggs, Dana read the next step: Add milk and eggs then, add flour and sugar";
-        List<String> listOfWords = splitWords(input);
+        String input = "After beating the eggs, Dana read the next step: Add milk and eggs then, add flour and sugar, post-fix";
+        String input2 = "We came, we saw, we conquered...then we ate Bill's (Mille-Feuille) cake.";
+        List<String> listOfWords = splitWords(input2);
         System.out.println("List of words = ");
         for(String word : listOfWords){
             System.out.print(word + ", ");
